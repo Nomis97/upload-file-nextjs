@@ -1,0 +1,29 @@
+{
+  "name": "vf-translator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "axios": "^1.5.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "google-translate-api": "^2.3.0",
+    "http-proxy-agent": "^7.0.0",
+    "next": "13.5.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.5",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}
